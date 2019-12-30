@@ -1,0 +1,99 @@
+
+@media(max-width:767px)
+{
+  .feedback.carousel-cap{width:45%;}
+   
+   select{
+    width:40%;
+    margin-bottom:20px;
+    margin:10px;
+    }
+  header div.top-menu div.left-side{float:none}
+  header div.top-menu div.right-side{float:none;margin-top:20px;}
+  .navbar-default .navbar-toggle{border-color: transparent;border:none;}
+  .navbar-default{top:50px;}
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{background: transparent;border-color: transparent}
+  header nav div.navbar-right {display:none}
+  .navbar-collapse, .navbar-default .navbar-form {
+    border: 1px solid #fff;
+    /* border-color: #e7e7e7; */
+  }
+  section.main h1{font-size:40px;}
+  section.main span{width:30%;}
+
+  section.booking form select{
+    width:80%;
+    margin-bottom: 20px;
+    margin:10px;
+    }
+    section.booking{height:450px}
+    section.booking form a {
+    width: 15%;
+    padding: 15px 0;
+    background: #FE5C24;
+    -webkit-transition: all .5s ease-in-out;
+    float:left;
+    margin-top:20px;
+    width:30%;
+    margin-left:10%;
+}
+section.packages .glyphicon{display:none;}
+section.packages .offers{width:80%;margin-right: 0;float:none;margin:auto}
+
+section.package main span{
+  display:none
+}
+
+}
+
+
+
+
+
+@media(min-width:768px) and (max-width:991px)
+{
+  
+  
+   select{
+    width:40%;
+    margin-bottom: 20px;
+    margin:10px;
+    }
+   select a{float:left;
+   }
+   section.booking form a{
+    margin-left:8%;
+   }
+   nav div.navbar-header{display: block}
+   header nav.navbar-default ul.nav{margin-left:0}
+  section.main h1{font-size:40px;}
+section.main span{width:30%;}
+form{margin-top:40px;}
+section.booking{height:300px}
+section.booking form select{width:40%;margin-top:0;}
+section.booking form a {
+    width: 15%;
+    padding: 15px 0;
+    float: left;
+    margin-top:20px;
+    background: #FE5C24;
+    -webkit-transition: all .5s ease-in-out;
+}
+section.packages .glyphicon{display:none;}
+header nav.navbar-default div.navbar-right span{display: none;}
+section.about div.pic div.caption{margin-top:7%;}
+section.about div.pic div.caption span:first-child{padding:10px;}
+section.about div.pic div.caption h2{font-size:20px;}
+
+}
+
+@media(min-width:992px) and (max-width:1199px)
+{
+   .feedback.carousel-caption{width:40%;}
+   .feedback.carousel-caption:last-of-type{display:none}
+}
+
+@media(min-width:1200px)
+{
+  
+}

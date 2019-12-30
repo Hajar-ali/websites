@@ -1,0 +1,296 @@
+$font-family:'Open Sans', sans-serif;
+$font-size:14px;
+$second-color:#FE5C24;
+$main-color:#0C3E72;
+$third-color:#2493E0;
+
+*{
+    margin:0;
+    padding:0;
+}
+
+@mixin prefixer($prop,$value,$prefixes:()){
+ @each $i in $prefixes{
+    #{"-" + $i + "-" + $prop}: $value;
+ }
+ #{$prop}:$value;
+}
+
+body{
+     @include prefixer(box-sizing ,border-box,webkit o ms);
+     font-family: $font-family;
+     font-size: $font-size;
+     color:$main-color;
+     height:3000px;
+}
+
+//header section
+
+header{
+    div.top-menu{
+        padding:10px 0;
+        line-height: 20px;
+        background-color:#EAEFFF; 
+    div.left-side{
+        float:left;
+    }
+    div.right-side{
+        float:right;
+    }
+    li{
+        display: inline-block;
+        margin-right:25px;
+        a{
+            color:$main-color;
+         &:hover{
+            text-decoration: none;
+            color:$main-color;
+         }
+        
+        }
+       }
+      }
+     nav.navbar-default {
+    background-color: #fff;
+    border-color: transparent;
+    z-index:999999999999999;
+    border-radius:0;
+    padding:20px 0;
+    font-size: $font-size + 2;
+    ul.nav{
+     margin-left:200px;
+     li{
+       
+      &:hover a{
+       background-color:transparent;
+       color:$second-color;
+      }
+      a{
+       -webkit-transition:all .3s ease-in-out;
+       color:$main-color;
+      
+      }
+     }
+    }
+    .navbar-brand{
+     color:$main-color;
+     font-weight:900;
+     font-size: $font-size + 10;
+     span{
+      color:$second-color;
+      }
+    }
+    div.navbar-right{
+    margin-top:12px;
+    span{
+     padding:15px;
+     background: $second-color;
+     -webkit-transition:all .5s ease-in-out;
+     &:hover{
+       background:$third-color;
+     }
+    }
+     a{
+      color:#fff;
+      &:hover{
+       text-decoration: none;
+      }
+    }
+    }
+     
+     .navbar-nav > li > .dropdown-menu{
+      margin-top:19px;
+      a{
+       color:$main-color ;
+       &:hover{
+       color:$main-color;
+       }
+      }
+     }
+     ul.dropdown-menu a{color:$main-color;}
+     }
+     .top-menu .left-side ul li:first-child a{color:$second-color}
+}
+
+/*************************************************************************************************************/
+section.about{padding:100px 0;
+max-height:300px;
+background:url(../images/beach.jpg);
+background-size:cover;
+position:relative;
+p{
+    position: relative;
+    padding:50px;
+    font-size:$font-size + 40;
+    color:#fff;
+    z-index: 3;
+}
+.overlay{
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: #0A4058;
+    z-index:2;
+    position: absolute;
+    opacity:.5;
+}
+}
+
+section.identity{
+ padding:100px 0;
+ img{width:100%}
+ div.paragraph{
+  padding:40px;
+  span{color:$second-color;}
+  .lead{padding:20px 0;
+  font-size:$font-size + 3;
+  color:#777;
+  line-height:2em;
+  }
+ }
+}
+/*****************************************************************************************************************/
+section.packages{
+ padding:100px 0;
+ background: url(../images/beach.jpg);
+ background-size: cover;
+ width:100%;
+ .offers{
+  background: #fff;
+  padding:50px;
+  font-size:$font-size + 2px;
+  line-height: 33px;
+  width: 40%;
+  float:right;
+  margin-right: 200px;
+  i{color:#FFC962;}
+  p,span{
+  color:#777777;
+ }
+ }
+ a.carousel-control{
+  background: transparent;
+ }
+ b{
+  display: inline-block;
+  width:150px;
+  height:50px;
+  font-weight: 100;
+  font-size:$font-size + 3;
+  color: $second-color;
+ }
+ h3{
+  margin-top: 0;
+  font-weight:bold;
+ }
+ 
+ .glyphicon {
+  top:50%;
+  color:$second-color;
+  font-size:24px;
+  width:60px;
+  height:60px;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #fff;
+ }
+}
+/**************************************************************************************************/
+section.services{
+ padding:100px 0;
+ .container >h2{padding:30px 0;
+ font-weight:500;
+ font-size: $font-size + 20;
+ }
+ .container > p{
+ width:50%;
+ color:#a2a2a2;
+ font-size:$font-size + 3;
+ padding-bottom:20px;
+ margin:auto;
+ }
+ div.our-service{padding:30px}
+div.feature{margin-bottom:40px}
+div.cap{float:left;text-align:left}
+div.cap p{color:#a2a2a2;}
+
+ }
+ /*********************************************************************/
+ section.feedback{
+  background: #0C3E72;
+  padding:100px 0;
+  .lead{font-size:18px;}
+ }
+ .feedback .carousel-cap{position:static;width:32%;
+ display:inline-block;
+ background: #0E477D;
+ margin-right:4px;
+ font-size:$font-size;
+ padding:30px 20px;
+ color:#fff;
+ }
+ .feedback .carousel-control{background: transparent;
+ box-shadow: none;
+ top:-50px;
+ }
+ 
+ .feedback .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top:0;
+ }
+ .feedback.left{left:80%}
+ /*************************************************************************************************************/
+ section.gallery{padding:100px 0;
+ div.right{float:right;width:49%}
+ div.left{float:left;width:49%;}
+ img{margin-bottom:20px}
+ }
+ /*******************************************************************************/
+  section.subscripe{
+  padding:100px 0;
+  background: #162B45;
+  color:#fff;
+  line-height:3em;
+  ul.main{
+   columns:2;
+   li{
+   -webkit-transition: all .5s ease-in-out;
+   &:hover{
+    color:$second-color;
+   }
+   }
+  }
+  h3{font-size:$font-size + 5;
+  padding:30px 0;
+  }
+  input[type="email"]{background: #092742;
+  color:grey;
+  padding:5px 10px;
+  border:0;
+  width:60%;
+  }
+  span.btn{background: $second-color;
+  border-radius:0;
+  padding:15px;
+  }
+  ul.social li{display:inline-block;margin-left:20px;
+  -webkit-transition:all .5s ease-in-out;
+  &:hover{
+   color:$second-color;
+   }}
+  span.mail{color:$second-color;}
+ }
+ /**************************************/
+  footer{padding:30px;
+ background: #08223A;
+ color:#777;
+ i{color:$second-color}
+ }
+ 
+ .activeme{background: red;}
+ button.top{
+  position: fixed;
+  right:10px;
+  bottom: 20px;
+  display:none
+ }

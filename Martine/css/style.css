@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #0C3E72;
+  height: 3000px; }
+
+header div.top-menu {
+  padding: 10px 0;
+  line-height: 20px;
+  background-color: #EAEFFF; }
+  header div.top-menu div.left-side {
+    float: left; }
+  header div.top-menu div.right-side {
+    float: right; }
+  header div.top-menu li {
+    display: inline-block;
+    margin-right: 25px; }
+    header div.top-menu li a {
+      color: #0C3E72; }
+      header div.top-menu li a:hover {
+        text-decoration: none;
+        color: #0C3E72; }
+
+header nav.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+  z-index: 999999999999999;
+  border-radius: 0;
+  padding: 20px 0;
+  font-size: 16px; }
+  header nav.navbar-default ul.nav {
+    margin-left: 200px; }
+    header nav.navbar-default ul.nav li:hover a {
+      background-color: transparent;
+      color: #FE5C24; }
+    header nav.navbar-default ul.nav li a {
+      -webkit-transition: all .3s ease-in-out;
+      color: #0C3E72; }
+  header nav.navbar-default .navbar-brand {
+    color: #0C3E72;
+    font-weight: 900;
+    font-size: 24px; }
+    header nav.navbar-default .navbar-brand span {
+      color: #FE5C24; }
+  header nav.navbar-default div.navbar-right {
+    margin-top: 12px; }
+    header nav.navbar-default div.navbar-right span {
+      padding: 15px;
+      background: #FE5C24;
+      -webkit-transition: all .5s ease-in-out; }
+      header nav.navbar-default div.navbar-right span:hover {
+        background: #2493E0; }
+    header nav.navbar-default div.navbar-right a {
+      color: #fff; }
+      header nav.navbar-default div.navbar-right a:hover {
+        text-decoration: none; }
+  header nav.navbar-default .navbar-nav > li > .dropdown-menu {
+    margin-top: 19px; }
+    header nav.navbar-default .navbar-nav > li > .dropdown-menu a {
+      color: #0C3E72; }
+      header nav.navbar-default .navbar-nav > li > .dropdown-menu a:hover {
+        color: #0C3E72; }
+  header nav.navbar-default ul.dropdown-menu a {
+    color: #0C3E72; }
+
+header .top-menu .left-side ul li:first-child a {
+  color: #FE5C24; }
+
+/**********************************************************************************************************/
+section.main {
+  padding: 200px 0;
+  color: #fff;
+  background: url(../images/beach.jpg);
+  background-size: cover;
+  margin-top: -30px; }
+  section.main h1 {
+    font-size: 94px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+    font-weight: 1000; }
+  section.main p {
+    font-size: 19px;
+    word-spacing: 2px; }
+  section.main span {
+    display: inline-block;
+    width: 15%;
+    margin: auto;
+    margin-top: 60px;
+    padding: 20px 20px;
+    -webkit-transition: all .5s ease-in-out;
+    background: #2493E0;
+    cursor: pointer; }
+    section.main span:hover a {
+      text-decoration: none; }
+    section.main span:hover {
+      background: #FE5C24; }
+    section.main span a {
+      color: #fff;
+      -webkit-transition: all .5s ease-in-out; }
+
+/*******************************************/
+section.booking {
+  position: relative;
+  top: -71px;
+  z-index: 99;
+  padding: 30px 0;
+  background: #fff;
+  box-shadow: 0 10px 40px 0 rgba(221, 221, 221, 0.3); }
+  section.booking li {
+    display: inline-block;
+    margin-left: 20px; }
+    section.booking li a {
+      padding: 20px 10px; }
+      section.booking li a:hover {
+        text-decoration: none; }
+  section.booking form select {
+    margin-left: 20px;
+    width: 18%;
+    cursor: pointer;
+    -webkit-transition: all .5s ease-in-out;
+    padding: 15px 0;
+    border: 1px solid #2493E0;
+    margin-top: 30px;
+    color: #2493E0; }
+  section.booking form a {
+    display: inline-block;
+    width: 10%;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 20px;
+    background: #FE5C24;
+    -webkit-transition: all .5s ease-in-out; }
+    section.booking form a:hover {
+      text-decoration: none;
+      background-color: #2493E0; }
+
+/***************************************************/
+.about .container > h2 {
+  font-weight: 700;
+  font-size: 34px; }
+
+.about .container > p {
+  font-size: 14px;
+  width: 50%;
+  margin: auto;
+  margin-top: 40px;
+  color: #777777; }
+
+section.about {
+  padding: 100px 0; }
+  section.about div.gallery {
+    padding: 30px 0; }
+    section.about div.gallery h1 {
+      padding: 40px 0;
+      font-weight: 900;
+      font-size: 14px; }
+  section.about img {
+    width: 100%;
+    height: 100%; }
+  section.about div.pic {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: all .5s ease-in-out; }
+    section.about div.pic:hover .overlay {
+      display: block; }
+    section.about div.pic:hover .caption {
+      display: block; }
+    section.about div.pic .overlay {
+      width: 100%;
+      height: 100%;
+      text-align: left;
+      color: #fff;
+      position: absolute;
+      top: 0;
+      background: #356088;
+      opacity: .7;
+      display: none; }
+    section.about div.pic div.caption {
+      opacity: 1;
+      z-index: 99999;
+      color: #fff;
+      position: absolute;
+      -webkit-transition: all .5s ease-in-out;
+      top: 0;
+      float: left;
+      display: none;
+      text-align: left;
+      margin-top: 30%;
+      padding: 30px; }
+      section.about div.pic div.caption span:first-child {
+        display: inline-block;
+        padding: 15px;
+        cursor: pointer;
+        background: #FE5C24; }
+      section.about div.pic div.caption h2 {
+        font-weight: 350; }
+      section.about div.pic div.caption span.left i {
+        color: #FE5C24; }
+      section.about div.pic div.caption i.fa-share-square-o {
+        display: inline-block;
+        float: right;
+        font-size: 20px;
+        opacity: 1; }
+
+/******************************************************************/
+section.packages {
+  padding: 100px 0;
+  background: url(../images/beach.jpg);
+  background-size: cover;
+  width: 100%; }
+  section.packages .offers {
+    background: #fff;
+    padding: 50px;
+    font-size: 16px;
+    line-height: 33px;
+    width: 40%;
+    float: right;
+    margin-right: 200px; }
+    section.packages .offers i {
+      color: #FFC962; }
+    section.packages .offers p, section.packages .offers span {
+      color: #777777; }
+  section.packages a.carousel-control {
+    background: transparent; }
+  section.packages b {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    font-weight: 100;
+    font-size: 17px;
+    color: #FE5C24; }
+  section.packages h3 {
+    margin-top: 0;
+    font-weight: bold; }
+  section.packages .glyphicon {
+    top: 50%;
+    color: #FE5C24;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background: #fff; }
+
+/*************************************************************************/
+.img-responsive {
+  width: 100%; }
+
+section.price {
+  padding: 100px 0; }
+
+.price .container > h2 {
+  padding: 30px 0;
+  font-weight: 500;
+  font-size: 34px; }
+
+.price .container > p {
+  width: 50%;
+  color: #777;
+  font-size: 17px;
+  padding-bottom: 20px;
+  margin: auto; }
+
+.hotel-list {
+  position: relative; }
+
+.hotel-caption {
+  position: absolute;
+  right: 10%;
+  top: 10%; }
+
+.hotel-caption li {
+  webkit-transition: all 5s ease-in-out; }
+  .hotel-caption li i {
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: #FE5C24;
+    border-radius: 50%;
+    opacity: .5;
+    visibility: hidden; }
+
+.hotel-caption li:last-child i {
+  background: rgba(225, 225, 225, 0.5);
+  color: #fff;
+  cursor: pointer;
+  visibility: visible; }
+
+div.rate {
+  float: left;
+  text-align: left; }
+
+div.rate i {
+  color: #ffc962; }
+
+/*******************************************************************************/
+section.services {
+  padding: 100px 0; }
+  section.services .container > h2 {
+    padding: 30px 0;
+    font-weight: 500;
+    font-size: 34px; }
+  section.services .container > p {
+    width: 50%;
+    color: #a2a2a2;
+    font-size: 17px;
+    padding-bottom: 20px;
+    margin: auto; }
+  section.services div.our-service {
+    padding: 30px; }
+  section.services div.feature {
+    margin-bottom: 40px; }
+  section.services div.cap {
+    float: left;
+    text-align: left; }
+  section.services div.cap p {
+    color: #a2a2a2; }
+
+/*******************************************************************************************/
+section.subscripe {
+  padding: 100px 0;
+  background: #162B45;
+  color: #fff;
+  line-height: 3em; }
+  section.subscripe ul.main {
+    columns: 2; }
+    section.subscripe ul.main li {
+      -webkit-transition: all .5s ease-in-out; }
+      section.subscripe ul.main li:hover {
+        color: #FE5C24; }
+  section.subscripe h3 {
+    font-size: 19px;
+    padding: 30px 0; }
+  section.subscripe input[type="email"] {
+    background: #092742;
+    color: grey;
+    padding: 5px 10px;
+    border: 0;
+    width: 60%; }
+  section.subscripe span.btn {
+    background: #FE5C24;
+    border-radius: 0;
+    padding: 15px; }
+  section.subscripe ul.social li {
+    display: inline-block;
+    margin-left: 20px;
+    -webkit-transition: all .5s ease-in-out; }
+    section.subscripe ul.social li:hover {
+      color: #FE5C24; }
+  section.subscripe span.mail {
+    color: #FE5C24; }
+
+/***********************************************************/
+footer {
+  padding: 30px;
+  background: #08223A;
+  color: #777; }
+  footer i {
+    color: #FE5C24; }
+
+/*******************888*/
+section.feedback {
+  background: #0C3E72;
+  padding: 100px 0; }
+  section.feedback .lead {
+    font-size: 18px; }
+
+.feedback .carousel-cap {
+  position: static;
+  width: 32%;
+  display: inline-block;
+  background: #0E477D;
+  margin-right: 4px;
+  font-size: 14px;
+  padding: 30px 20px;
+  color: #fff; }
+
+.feedback .carousel-control {
+  background: transparent;
+  box-shadow: none;
+  top: -50px; }
+
+.feedback .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  top: 0; }
+
+.feedback.left {
+  left: 80%; }
