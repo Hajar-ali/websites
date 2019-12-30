@@ -1,0 +1,54 @@
+.item img{overflow: hidden;}
+.item{position: relative;
+overflow: hidden;}
+.overlay{position: absolute;
+top:100%;
+left:0;
+background-color: rgba(255,255,255,.7);
+height:100%;
+display: flex;
+align-items: center;
+flex-direction: column;
+padding-top: 20%;}
+body{font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+color:#000;
+background-color: #000;
+font-weight: bold;}
+.item:hover .overlay{top:0;
+transition: all .7s ease-in-out}
+.aside{position: fixed;
+top:0;
+left:0;
+z-index: 9;
+width:15%;
+display: flex;
+height: 100%;
+color: #F8F6F6;}
+.close{background-color: #f8f6f6;
+width:20%;
+opacity: 1;
+padding-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;}
+.aside nav{padding-top: 50px;
+  width:80%;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;}
+.aside li{margin-top: 20px;
+cursor: pointer;}
+.aside li:first-of-type{margin-top: 0}
+.aside li {position: relative;
+  top:80%;
+}
+i{cursor: pointer;}
+
+input{background-color: transparent!important;}
+.form-control{border:0;
+border-bottom: 1px solid #DDD;
+border-radius: 0;
+text-align: center;
+margin-top: 10px}
+.alert-danger{display: none}

@@ -1,0 +1,82 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+
+
+
+
+</head>
+
+
+<body>
+  <div class="container">
+  <input type="text" class="w-75   mt-5 ml-auto mr-auto  form-control" onkeyup="search(this.value)">
+ <div class="row movies py-5" id="mymovie"></div>
+</div>
+
+ <div class="aside">
+ <nav>
+   <ul class="list-unstyled">
+     <li>Now playing</li>
+     <li>popular</li>
+     <li>top related</li>
+     <li>trending</li>
+     <li>upcoming</li>
+     <li>contact us</li>
+   </ul>
+ </nav>
+ <div class="close">
+   <i class="fas fa-sliders-h"></i>
+ </div>
+</div>
+
+<div class="container">
+  <h2>Contact Us...</h2>
+<div class="row">
+<div class="col-md-6">
+<div class="left form-group">
+<input type="text" id="name" name="" value="" class="form-control" placeholder="Enter your Name" onkeydown="validateformname(this.value)">
+<div class="alert alert-danger name" id="namealert" role="alert" >
+		  Your Name is not valid</div>
+<input type="text" name="" value="" class="form-control"  id="phone" placeholder="Enter phone" onkeydown="validateformphone(this.value)">
+<div class="alert alert-danger phone" id="namealert" role="alert" >
+		  Your phone is not valid
+		</div>
+<input type="password" name="" value="" class="form-control"  id="pass" placeholder="Enter password" >
+<div class="alert alert-danger pass" id="namealert" role="alert">
+		  Your pass is not valid
+		</div>
+</div>
+<button type="button" name="button" class="btn btn-outline-danger" id="send" disabled onclick="validation()">submit</button>
+</div>
+<div class="col-md-6">
+<div class="right">
+  <input type="text" name="" value=""  id="email" class="form-control" placeholder="Enter your Email" onkeydown="validateformmail(this.value)">
+  <div class="alert alert-danger mail" id="namealert" role="alert" >
+		  Your mail is not valid
+		</div>
+  <input type="text" name="" value=""  id="age" class="form-control" placeholder="Enter age" onkeydown="validateformphone(this.value)">
+  <div class="alert alert-danger age" id="namealert" role="alert" >
+		  Your age is not valid
+		</div>
+  <input type="password" name="" value="" class="form-control" placeholder="Enter Repassword" onkeydown="validateformpass(this.value)">
+  <div class="alert alert-danger" id="namealert" role="alert">
+		  Your pass is not valid
+		</div>
+</div>
+</div>
+</div>
+</div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>
