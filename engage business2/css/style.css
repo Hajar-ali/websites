@@ -1,0 +1,295 @@
+*{padding:0;
+margin:0;}
+body{ font-family: 'Open Sans',arial;}
+.clr{clear: both;}
+/*************************navbar************************/
+.navbar{padding:20px;
+width:80%;
+margin:auto;
+overflow: auto;}
+.navbar ul{width:60%;
+float:right;
+padding-top:10px;
+text-align: center;}
+.navbar ul li{display: inline-block;
+margin-left: 20px;}
+.navbar a{text-decoration: none;
+color: #fff;}
+.navbar img{width:10%;}
+/************************************HOME**********************/
+
+.home{background-image:url(../images/business-2.jpg);
+background-size:cover;
+height:760px}
+.home .home-content{
+text-align: center;
+color:#fff;
+width:70%;
+margin:auto;
+margin-top:60px;
+line-height:70px;}
+.home-content h1{font-size: 50px;
+font-weight: 300}
+.home-content p{font-size: 20px;
+color:#fff;}
+.home-content button{padding:20px 40px;
+letter-spacing: .5px;
+background-color: #4caf50;
+border:0;
+border-radius: 5%;
+font-weight: 500;
+text-transform: uppercase;
+font-size: 13px;
+outline: 0;
+color:#fff;
+margin:40px 0;}
+.home .overlay{background:rgba(0,0,0,.7);
+width:100%;height:100%;}
+/***********************************************ABOUT*******************************/
+.about-us{width: 90%;
+margin:auto;
+padding:60px 0;
+overflow: auto;}
+.about{float:left;
+width:33.33333%;
+overflow: auto;
+margin:auto;}
+.about .about-img{width:10%;float:left;}
+.about-content{width:90%;float:left;}
+.about-content p{text-align: left;
+padding:10px;}
+.about h3{padding:0 10px;}
+.about-img img{width:70%;}
+/***********************************************SERVICES***************************/
+.services{background-color:#f8f8f8;
+padding:60px 0;}
+.over{padding:0 10px;}
+.services .container{width:90%;
+overflow: auto;
+margin: auto;}
+.services h2,p{text-align: center;}
+.services p{font-size: 20px;}
+.myservice{width:33.3333%;
+float:left;}
+.myservice p{text-align: left;}
+.myservice img{width:100%;}
+.services h2 {padding:20px 0;
+color:#303030;
+font-weight: 100;
+font-size: 40px;}
+.services h3{color:#303030;}
+.myservice p,.services p{color:#888}
+.serve{padding:20px;
+background-color: #fff;}
+.serve p{font-size: 16px;
+line-height: 25px;}
+/*****************************************PRICE***************************/
+.secret{width:90%;
+  margin:auto;
+  padding:40px 0;
+overflow: auto;}
+.content,.img-content{float: left;}
+.content{width:55%;}
+.content p{padding:40px;
+  padding-top:10px;
+  padding-left:0;
+  line-height: 30px;
+text-align: left;}
+.content h2{margin-top:40px;
+padding-bottom: 10px;
+color: #303030;
+font-size: 30px;
+font-weight: 100}
+.img-content{width:45%;}
+.img-content img{width:100%;}
+.secret ul{list-style:none;}
+.secret li,p{color: #888}
+.secret li{line-height: 30px;}
+.secret button{padding:15px 20px;
+letter-spacing: .5px;
+background-color: #4caf50;
+border:0;
+border-radius: 5%;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 13px;
+outline: 0;
+color:#fff;
+margin:40px 0;}
+.content img{width:4%}
+.content b{font-weight: 300;}
+/****************************************************CAROUSL*********************************************/
+.carousel{background-color: #f8f8f8;
+padding:40px 0;}
+.carousel .container{width:90%;
+  margin:auto;
+overflow: auto;}
+.carousel img{display:block;
+margin:auto;
+width:5%;
+padding:30px 0;}
+.parent{width:33.333%;
+  float: left;}
+.car-content p,i{text-align:left;}
+.car-content i{display: block;
+font-style: normal;}
+.car-content{background: #fff;
+padding:20px;
+line-height: 30px;}
+.parent i{display: block;
+padding:10px;
+font-style: normal;
+color: #888;}
+.parent b{font-weight: 300;
+margin-left: 10px;
+color:#868686;}
+.parent .overlay{padding:10px;}
+.controls{margin:auto;
+width:60%;
+text-align: center;}
+.controls img{display: inline-block;
+width:4%;}
+/******************************FEEDBACK**************************/
+.feedback{padding:60px;
+overflow: auto;}
+.feedback .icon{float:left;
+width:25%;
+text-align: center;}
+.feedback .icon img{width:15%;}
+.feedback h2{padding-top:20px;
+font-size: 60px;
+color: rgba(0,0,0,.75);
+font-weight: 100;}
+.feedback p{padding-top:20px;
+text-transform: capitalize;}
+
+/****************************************INFO**********************************/
+.info{background: url(../images/full-2.jpg);
+background-size: 100% 100%;
+background-attachment: fixed;
+text-align: center;
+color:#fff;
+line-height: 40px;}
+.info h3 {font-size: 30px;
+padding:15px 0;
+margin-top:40px;}
+.info p{color: #fff;
+width: 60%;
+margin: auto;
+font-size: 18px;}
+.info button{padding:15px 20px;
+letter-spacing: .5px;
+background-color: #4caf50;
+border:0;
+border-radius: 5%;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 13px;
+outline: 0;
+color:#fff;
+margin:40px 0;}
+.info .overlay{background-color: rgba(0,0,0,.5);
+width:100%;
+overflow: auto;}
+/*****************************************merits*************************/
+.merites{width:90%;
+  margin:auto;
+overflow: auto;}
+.merites h2,p{padding:15px 0;}
+.merites h2{font-size: 30px;
+font-weight: 100;}
+.merites .merit{width:33.333%;
+line-height: 30px;
+float: left;}
+.merites h2,p{text-align: center;}
+.merit{margin-bottom: 20px;}
+.merit p{padding:15px;
+  text-align: left;}
+/***********************************advertise****************************/
+.advertise{background-color: #f8f8f8;
+padding:40px 0;}
+.advertise .container{width:90%;
+  margin:auto;
+overflow: auto;}
+.advertise .adv{float: left;
+width:20%;
+text-align: center;}
+.advertise img{width:70%;
+opacity: .7;}
+/***************************************CONTACT*********************/
+.contact{padding:40px 0;
+background-color:#4caf50;}
+.contact .content{width:80%;
+float:left;}
+.content h2{color:#fff;}
+.contact .container{width:90%;
+  margin:auto;
+  overflow: auto;
+line-height: 40px;
+font-size: 20px;
+color: #fff;}
+.contact p{text-align: left;
+color: #fff;}
+.contact button{float:right;
+  padding:15px 20px;
+  letter-spacing: .5px;
+  background-color:#fff;
+  border:0;
+  color: black;
+  border-radius: 5%;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 13px;
+  outline: 0;
+  margin:40px 0;
+}
+/****************************************FOOTER*********************************/
+.footer{background: #1f2021;
+padding:40px 0;}
+.footer .container{width:90%;
+  margin:auto;
+font-size: 14px;
+line-height: 22px;
+overflow: auto;}
+.footer{color:#fff;}
+.sec1,.sec2,.sec3,.sec4{float:left;
+width:25%;}
+.sec1 p{text-align: left;}
+.footer ul{
+list-style: none}
+.footer .sec1 p{color: #fff}
+
+
+@media (max-width:1200px) and (min-width:992px)
+{
+
+}
+@media (max-width:991px) and (min-width:768px)
+{
+  .myservice{width:50%;
+  margin-bottom: 20px;}
+  .secret .img-content,.content{width:100%}
+  .carousel .parent{width:100%;}
+  .feedback .icon{width:50%;
+  margin-bottom:20px;}
+  .merites .merit{width:100%;}
+  .sec1, .sec2, .sec3, .sec4{width:100%;
+  margin-bottom: 20px;}
+
+}
+@media (max-width:767px)
+{
+  .myservice{width:100%;
+  margin-bottom: 20px;}
+  .secret .img-content,.content{width:100%}
+    .carousel .parent{width:100%;}
+    .feedback .icon{width:50%;
+    margin-bottom:20px;}
+    .merites .merit{width:100%;}
+    .advertise .adv{width:33.333%;
+    margin-bottom: 20px;}
+    .contact button{width:100%}
+    .sec1, .sec2, .sec3, .sec4{width:100%;
+    margin-bottom: 20px;}
+    .home{height:auto;}
+}
