@@ -1,0 +1,274 @@
+*{padding:0;
+margin: 0;
+box-sizing: border-box;}
+body {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Amiri', serif;
+  font-family: 'Tajawal', sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+html{scroll-behavior: smooth;}
+/*nav*/
+nav ul{display: flex;
+justify-content: space-between;
+width:40%;}
+nav a{text-decoration: none;  
+color: #fff;}
+a:hover{color: #fff;
+text-decoration: none;}
+button:focus{outline: 0;}
+nav .fa-sliders-h{color: #FAB744;}
+/*header*/
+header{background-image:url(../images/bg.jpeg) ;
+position: relative;
+clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+background-size: cover;
+background-position:center 25%;
+display: flex;
+align-items: center;}
+.fa-hourglass-half{color:#FAB744;}
+header .my-heading{
+position: relative;
+z-index: 9;  
+display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+margin:auto;}
+header .icon i {font-size: 9rem;}
+h1{font-size: 3rem;}
+header p{font-size: 1.5rem;
+font-weight: 600;}
+header .overlay{
+position: absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background-color: rgba(0, 0, 0,.5);}
+header h2{font-weight:bold;
+position: relative;
+z-index: 9;}
+header .link{width:70px;
+display: flex;
+align-items: center;
+justify-content: center;  
+height:70px;
+position: relative;
+top:40px;
+z-index: 9;
+bottom:40px;
+flex-direction: column;
+border-radius: 50%;
+border:1px solid #fff}
+header .link p{font-size: 16px;
+font-weight: normal;}
+header .parent a{color:#fff ;}
+/*puzzle*/
+.puzzle h2{ text-shadow: 2px 1px #FAB744;
+font-weight: bold;}
+.puzzle i{color: #FAB744;
+font-size: 5rem;
+text-shadow: 2px 2px #41497A;
+-webkit-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+-moz-transform: rotateY(180deg);
+transform: rotateY(180deg);}
+.puzzle h5{font-weight: bold;
+color:#46ACC2}
+.puzzle img{position: relative;
+  top: 50%;}
+.puzzle p{font-size: 16px;
+font-weight: normal;}
+.puzzle h6{font-weight: bold;
+text-shadow: 2px 2px #FAB744;}
+.puzzle span{color: #FAB744;
+font-weight: bolder;
+font-size: 30px;
+text-shadow: 2px 2px #41497A;}
+.puzzle .lead span{font-weight: bold;}
+.Hplay .question{
+-webkit-clip-path:polygon(100% 0, 100% 53%, 26% 69%, 0 24%);
+-moz-clip-path:polygon(100% 0, 100% 53%, 26% 69%, 0 24%);
+-o-clip-path:polygon(100% 0, 100% 53%, 26% 69%, 0 24%);
+clip-path: polygon(100% 0, 100% 53%, 26% 69%, 0 24%);
+height:200px;
+position: relative;
+background-color:#4FC5E3;}
+.Hplay .question h3,.Hplay .answer button{top:15%}
+.Hplay .answer{
+-moz-clip-path: polygon(63% 0, 100% 39%, 0 65%, 0 20%);
+-o-clip-path: polygon(63% 0, 100% 39%, 0 65%, 0 20%);
+-ms-clip-path: polygon(63% 0, 100% 39%, 0 65%, 0 20%);  
+clip-path: polygon(63% 0, 100% 39%, 0 65%, 0 20%);
+width:100%;
+height:200px;
+background-color:#4FC5E3}
+.Hplay .question h3{color:#41497A;
+font-weight: bold;
+text-shadow: 2px 2px #FAB744;}
+.Hplay img{position: relative;
+top:-118px;
+right:46%;}
+.Hplay .answer button{border-radius: 0;
+padding:5px 25px;
+color: #FAB744;
+background-color: #41497A ;
+box-shadow:3px 3px #FAB744;
+font-weight: bold;
+transform: skew(10deg);}
+.Hplay img{width:100px;
+height:100px;}
+/* rooms*/
+.rooms{position: relative;
+top:-40px}
+.rooms h3{color: #41497A;
+font-weight: bold;}
+.rooms .room{-moz-clip-path: polygon(100% 0, 100% 71%, 0 100%, 0 29%);
+-o-clip-path: polygon(100% 0, 100% 71%, 0 100%, 0 29%);
+-ms-clip-path: polygon(100% 0, 100% 71%, 0 100%, 0 29%);  
+clip-path: polygon(100% 0, 100% 71%, 0 100%, 0 29%);}
+.rooms .roomtwo{-moz-clip-path: polygon(100% 19%, 100% 100%, 0 77%, 0 0);
+-o-clip-path: polygon(100% 19%, 100% 100%, 0 77%, 0 0);
+-ms-clip-path: polygon(100% 19%, 100% 100%, 0 77%, 0 0);  
+clip-path: polygon(100% 19%, 100% 100%, 0 77%, 0 0);}
+.rooms .room,.rooms .roomtwo{  
+height:400px;
+display: flex;
+align-items: center;
+position: relative;  
+width:100%;
+background-color:#FAB744;}
+.rooms button{border-radius: 0;
+transform: skewX(10deg);
+background-color: #41497A;
+color:#4FC5E3;
+transition: all .5s ease-in-out;
+box-shadow: 2px 2px #4FC5E3}
+.rooms .lead{text-align: justify !important;
+color: #0B415E;}
+.rooms{background-color:#41497A}
+.rooms .col-md-7,.rooms .col-md-5{display: flex;
+align-items: center;}
+/*steps*/
+.steps .icon .fa-question{transform: rotateY(180deg);}
+.steps .icon .fas{font-size: 3rem;
+color:#FAB744 ;
+text-shadow: 2px 2px #41497A}
+.steps .icon{flex-direction: column;}
+.steps span{font-weight: bold;
+text-align: center;}
+.one:after {
+  content: "";
+  width: 235px;
+  height: 70px;
+  z-index: -1;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  right: -219px;
+  border-top: dashed 3px #FAB744;
+  top: -8px;
+}
+.three:after {
+  content: "";
+  width: 215px;
+  height: 70px;
+  z-index: -1;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  right:108px;
+  border-top: dashed 3px orange;
+  top: -20px;
+}
+.two:after {
+  content: "";
+  width: 235px;
+  height: 70px;
+  z-index: -1;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  right: 98px;
+  border-bottom: dashed 3px orange;
+  bottom: -8px;
+}
+.four:after {
+  content: "";
+  width: 215px;
+  height: 70px;
+  z-index: -1;
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  right:-211px;
+  border-bottom: dashed 3px orange;
+  bottom: -48px;
+}
+
+/*FAQ*/
+.FAQ{-moz-clip-path: polygon(0 14%, 100% 0, 100% 90%, 0% 100%);
+-ms-clip-path: polygon(0 14%, 100% 0, 100% 90%, 0% 100%);
+-o-clip-path: polygon(0 14%, 100% 0, 100% 90%, 0% 100%);  
+clip-path: polygon(0 14%, 100% 0, 100% 90%, 0% 100%);
+position: relative;
+top:-30px;  
+width:100%;
+height:400px;
+background-color:#4FC5E3}
+.FAQ h3{font-weight: bold;
+color: #41497A;
+text-shadow: 2px 2px #FAB744;}
+.FAQ .divider{width:3px;
+height:200px;
+margin: auto;
+background-color:#41497A;
+box-shadow:1px 1px #FAB744;}
+.FAQ li{color: #41497A;
+font-weight: bold;}
+/*contact*/
+input,textarea{border: 0;
+border-bottom: 1px solid #000;
+outline: 0;
+padding: 5px;}
+.contact h6{font-weight: bold;
+color: #41497A;
+text-shadow: 1px 1px #FAB744;}
+.contact textarea{width:50%}
+.contact button{border-radius: 0;
+color: #4FC5E3;
+box-shadow: 2px 2px #4FC5E3;
+background-color: #41497A;  
+transform: skewX(10deg);
+-webkit-transform: skewX(10deg);
+-moz-transform: skewX(10deg);
+-o-transform: skewX(10deg);}
+.contact b{position: relative;
+top:25px;
+right:40px;
+cursor: pointer;}
+.contact .map{width:300px;
+height:200px;
+overflow: hidden;}
+footer p{font-weight: normal;
+font-size: 14px;
+margin: 0;}
+/*form valid*/
+.email{display: none;}
+.alert{background-color: transparent;
+color: darkred;}
+.alert-primary{border: 0;}
+.alert{padding: 0%;}

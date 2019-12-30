@@ -1,0 +1,34 @@
+@media(max-width:767px) /* xs small*/
+{
+.room img,.roomtwo img{display: none;}
+.FAQ .left{display: none;}
+.FAQ .divider{display: none;}
+.room h3,.room .lead,.roomtwo h3,.roomtwo .lead{font-size: 14px;}
+.steps .icon{margin-bottom: 20px;
+position: static;}
+header p{font-size: 1rem;}
+header h1{font-size: 2rem;}
+header .icon i{font-size: 5rem;}
+.one:after,.two:after,.three::after,.four::after{display: none;}  
+.steps .icon{top:0 !important}
+.map{margin-top:20px;}
+.puzzle img{position: static;}
+}
+@media(min-width:768px) and (max-width:991px) /*small*/
+{
+.navbar-expand-md .navbar-nav {width:70%}
+.steps .icon{top:0 !important}
+.room h3,.room .lead,.roomtwo h3,.roomtwo .lead{font-size: 14px;}  
+.one:after,.two:after,.three::after,.four::after{display: none;}
+.map{margin-top:20px;}}
+@media(min-width:992px) and (max-width:1199px) /*medium*/
+{
+  .one:after,.two:after,.three::after,.four::after{display: none;}  
+}
+
+@media(min-width:1200px) /*large*/
+{
+
+}
+
+
