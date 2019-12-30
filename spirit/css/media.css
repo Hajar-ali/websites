@@ -1,0 +1,30 @@
+
+@media(max-width:767px)
+{
+header .col-md-4{
+    display: none;
+    }
+ header nav li{ margin-right:3px;
+ font-size: small;
+ }
+ nav ul {text-align: center}
+ .post {padding:10px;}
+}
+@media(min-width:768px) and (max-width:991px)
+{
+ header .col-md-4{
+    display: none;
+    }
+ header nav li{ margin-right:5px;
+ font-size: 20px}
+}   
+
+@media(min-width:992px) and (max-width:1199px)
+{
+   
+}
+
+@media(min-width:1200px)
+{
+  
+}
