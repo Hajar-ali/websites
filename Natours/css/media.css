@@ -1,0 +1,33 @@
+@media(max-width:767px) /* xs small*/
+{
+.about .right{text-align: center;
+margin-top: 30px;}    
+.about .right img{position: static;
+margin-bottom: 20px;}
+.tours h4{font-size: 1.4rem;}
+.card{width:70%;
+margin: auto;
+margin-top: 30px;}
+.contact .overlay{clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+width:100%}
+.hall-overlay li{font-size: 20px;}
+header h1{font-size:1rem !important;}
+}
+@media(min-width:768px) and (max-width:991px) /*small*/
+{
+    .tours h4{font-size: 1.4rem;}
+.card{width:60%;
+margin: auto;
+margin-top: 40px;}
+}
+@media(min-width:992px) and (max-width:1199px) /*medium*/
+{
+    
+}
+
+@media(min-width:1200px) /*large*/
+{
+
+}
+
+
