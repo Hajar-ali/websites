@@ -1,29 +1,30 @@
-<!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>engage Business</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.css">
+
   </head>
   <body>
 
-   <div class="home">
+   <div class="home" id="home">
    <div class="overlay">
      <div class="navbar">
       <a href="#"> <img src="images/logo-light.png"/></a>
      <ul>
-       <li><a href="#">Home</a></li>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Services</a></li>
+       <li><a href="#home">Home</a></li>
+       <li><a href="#about">About</a></li>
+       <li><a href="#service">Services</a></li>
        <li><a href="#">Pricing</a></li>
-       <li><a href="#">News</a></li>
-       <li><a href="#">Contact</a></li>
+       <li><a href="#news">News</a></li>
+       <li><a href="#contact">Contact</a></li>
      </ul>
      </div>
    <div class="home-content">
    <p>Time to change your business</p>
-   <h1>Our small and medium business solutions helped grow over a hundred companies.</h1>
-    <a href="#"><button type="button" name="button">Learn More</button></a>
+   <h1 class="wow bounceInDown" data-wow-duration="2s">Our small and medium business solutions helped grow over a hundred companies.</h1>
+    <a href="#about"><button type="button" name="button">Learn More</button></a>
    </div>
    </div>
    </div>
@@ -56,11 +57,11 @@
  </div>
 </div>
    </div>
-   <div class="services">
+   <div class="services" id="service">
    <h2>Our Services</h2>
    <p>This is a subtitle, feel free to change it!</p>
    <div class="container">
-   <div class="myservice">
+   <div class="myservice wow fadeInLeft"  data-wow-duration="2s">
      <div class="over">
    <img src="images/full-5-600x420.jpg"/>
    <div class="serve">
@@ -70,7 +71,7 @@
       </div>
     </div>
    </div>
-   <div class="myservice">
+   <div class="myservice  wow fadeInUp"  data-wow-duration="2s">
      <div class="over">
    <img src="images/full-5-600x420.jpg"/>
    <div class="serve">
@@ -80,7 +81,7 @@
       </div>
     </div>
    </div>
-   <div class="myservice">
+   <div class="myservice  wow fadeInRight"  data-wow-duration="2s">
      <div class="over">
    <img src="images/full-5-600x420.jpg"/>
    <div class="serve">
@@ -92,8 +93,8 @@
    </div>
  </div>
 </div>
-   <div class="secret">
-   <div class="content">
+   <div class="secret" id="about">
+   <div class="content wow bounceInLeft" data-wow-duration="2s">
    <h2>Our Secret</h2>
    <p>Morbi pellentesque, nisl id semper bibendum, nibh sem fermentum magna,
      eget commodo leo velit sit amet velit. Aliquam fermentum, lorem quis posuere mattis, est justo porttitor magna,
@@ -105,11 +106,11 @@
       </ul>
       <a href="#"><button type="button" name="button">LEARN MORE</button></a>
    </div>
-   <div class="img-content">
+   <div class="img-content wow bounceInRight" data-wow-duration="2s">
    <img src="images/business-main-700x680.jpg"/>
    </div>
    </div>
-   <div class="carousel"/>
+   <div class="carousel" id="news">
    <div class="container">
    <img src="images/think.png"/>
    <div class="parent">
@@ -151,25 +152,25 @@
    </div>
  </div>
    </div>
-   <div class="feedback">
+   <div class="feedback" id="counter">
    <div class="icon">
    <img src="images/ok.png"/>
-   <h2>1240</h2>
+   <h2 data-count="1240"  class="counter-value">0</h2>
    <p>page likes</p>
    </div>
    <div class="icon">
    <img src="images/home.png"/>
-   <h2>64</h2>
+   <h2 data-count="64"  class="counter-value">0</h2>
    <p>location</p>
    </div>
    <div class="icon">
    <img src="images/lamp.png"/>
-   <h2>960</h2>
+   <h2 data-count="960"  class="counter-value">0</h2>
    <p>Great ideas</p>
    </div>
    <div class="icon">
    <img src="images/think.png"/>
-   <h2>420</h2>
+   <h2 data-count="420"  class="counter-value">0</h2>
    <p>comments</p>
    </div>
    </div>
@@ -182,7 +183,7 @@
        <button type="button" name="button">Learn More</button>
        </div>
    </div>
-   <div class="merites">
+   <div class="merites wow slideInDown" data-wow-duration="2s">
    <h2>Other Services</h2>
    <p>What else our company can offer you.</p>
    <div class="merit">
@@ -236,7 +237,7 @@
    </div>
  </div>
    </div>
-   <div class="contact">
+   <div class="contact" id="contact">
      <div class="container">
        <div class="content">
    <h2>Feeling convinced?</h2>
@@ -283,5 +284,11 @@
    <div class="footer-bottom">
    <p>Copyright 2017. All rights reserved.</p>
    </div>
+
+   <script src="js/jquery-3.4.1.min.js"> </script>
+   <script src="js/jquery.nicescroll.min.js"> </script>
+     <script src="js/wow.min.js"></script>
+   <script src="js/plugin.js"></script>
+
   </body>
 </html>
