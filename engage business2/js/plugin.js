@@ -1,7 +1,4 @@
-$(function() {
-    $("body").niceScroll();
 
-});
   new WOW().init();
 
 
